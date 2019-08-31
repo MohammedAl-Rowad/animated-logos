@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/animated-logos/static/css/main.54ecd21e.chunk.css",
-    "main.js": "/animated-logos/static/js/main.e1cb9c85.chunk.js",
-    "main.js.map": "/animated-logos/static/js/main.e1cb9c85.chunk.js.map",
+    "main.js": "/animated-logos/static/js/main.021a3256.chunk.js",
+    "main.js.map": "/animated-logos/static/js/main.021a3256.chunk.js.map",
     "runtime~main.js": "/animated-logos/static/js/runtime~main.c367b8df.js",
     "runtime~main.js.map": "/animated-logos/static/js/runtime~main.c367b8df.js.map",
     "static/js/2.0b8c4d12.chunk.js": "/animated-logos/static/js/2.0b8c4d12.chunk.js",
     "static/js/2.0b8c4d12.chunk.js.map": "/animated-logos/static/js/2.0b8c4d12.chunk.js.map",
     "index.html": "/animated-logos/index.html",
-    "precache-manifest.c38a7e3ee1a8e2d2a7af944d6f12a881.js": "/animated-logos/precache-manifest.c38a7e3ee1a8e2d2a7af944d6f12a881.js",
+    "precache-manifest.921cbb69ed37615939b05db8e6f49c01.js": "/animated-logos/precache-manifest.921cbb69ed37615939b05db8e6f49c01.js",
     "service-worker.js": "/animated-logos/service-worker.js",
     "static/css/main.54ecd21e.chunk.css.map": "/animated-logos/static/css/main.54ecd21e.chunk.css.map"
   }
