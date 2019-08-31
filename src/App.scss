@@ -1,34 +1,46 @@
+body,
+html {
+  overflow-x: hidden !important;
+}
 body {
+  a {
+    text-decoration: none !important;
+  }
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   height: 100vh;
   // overflow: hidden;
-  overflow-x: hidden;
-  align-items: center;
   background-color: #262626;
-  .stagger-visualizer {
+  .stagger-visualizer-container {
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
     justify-content: center;
     align-items: center;
-    width: 20rem;
-    height: 20rem;
-    div {
-      &.water {
-        background-color: #03658c;
-      }
-      &.logo-bg {
-        background-color: #d94a3d;
-      }
+    height: 100vh;
+    .stagger-visualizer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 20rem;
+      div {
+        &.water {
+          background-color: #03658c;
+        }
+        &.logo-bg {
+          background-color: #d94a3d;
+        }
 
-      &.clouds {
-        background-color: #f2f2f2;
-        border-radius: 1rem;
+        &.clouds {
+          background-color: #f2f2f2;
+          border-radius: 1rem;
+        }
+        width: 1rem;
+        height: 1rem;
+        border: 1px solid transparent;
       }
-      width: 1rem;
-      height: 1rem;
-      border: 1px solid transparent;
     }
   }
 }
