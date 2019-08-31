@@ -42,8 +42,8 @@ export default function App() {
           <Link to="/dbseer">Dbseer</Link>
         </MenuItem>
       </Menu>
-      <Route path="/" exact component={Aspire} />
-      <Route path="/dbseer" exact component={Dbseer} />
+      <Route path="/animated-logos/" exact component={Aspire} />
+      <Route path="/animated-logos/dbseer" exact component={Dbseer} />
     </Router>
   );
 }
