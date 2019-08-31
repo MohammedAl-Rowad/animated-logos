@@ -70,7 +70,7 @@ export default class App extends Component {
     const numberOfElements = col * row;
     for (let i = 0; i < numberOfElements; i++) {
       const div = document.createElement('div');
-      div.addEventListener('click', () => alert(i));
+      // div.addEventListener('click', () => alert(i));
       let cla: string = '';
       if (this.clouds.includes(i)) {
         cla = 'clouds';
