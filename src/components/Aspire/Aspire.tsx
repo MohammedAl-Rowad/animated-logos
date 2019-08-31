@@ -48,7 +48,8 @@ export default class Aspire extends Component {
       .timeline({
         targets: '.stagger-visualizer div',
         easing: 'easeInOutSine',
-        delay: anime.stagger(50),
+        // delay: anime.stagger(501),
+        delay: 2000,
         loop: true,
         autoplay: false
       })
