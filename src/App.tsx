@@ -36,13 +36,13 @@ export default function App() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}>
-          <Link to="/">Aspire</Link>
+          <Link to="/animated-logos">Aspire</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Link to="/dbseer">Dbseer</Link>
+          <Link to="/animated-logos/dbseer">Dbseer</Link>
         </MenuItem>
       </Menu>
-      <Route path="/animated-logos/" exact component={Aspire} />
+      <Route path="/animated-logos" exact component={Aspire} />
       <Route path="/animated-logos/dbseer" exact component={Dbseer} />
     </Router>
   );
